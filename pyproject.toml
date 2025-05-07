@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai_capchat"            
+version = "0.1.0"
+description = "..."
+authors = [
+  { name="Brayan Cordero"}
+]
+requires-python = ">=3.7"
+dependencies = [
+    "pandas"
+]
+
+[project.optional-dependencies]
+dev = [
+    "invoke",
+    "pip-tools",
+    "build"
+]

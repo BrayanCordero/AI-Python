@@ -1,0 +1,54 @@
+# Ignore node_modules directory and its contents
+node_modules/
+
+# Ignore .env files containing environment variables
+.env
+
+# Ignore build output directory
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore specific file in any directory
+config.json
+
+# Ignore all files ending with .secret
+*.secret
+
+# Ignore a directory named "secrets" at any level
+secrets/
+
+# Ignore all .txt files inside the "docs" directory
+docs/*.txt
+
+# Ignore everything inside a directory named "temp" at the root level
+/temp/*
+
+# Ignore everything inside a directory named "temp" at any level
+temp/**
+
+# Exception: Do not ignore important.txt inside docs
+!docs/important.txt
+
+# Egg-info directories (package metadata)
+*.egg-info/
+
+# Bytecode  
+__pycache__/
+*.py[cod]
